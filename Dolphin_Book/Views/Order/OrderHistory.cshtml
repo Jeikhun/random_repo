@@ -1,0 +1,104 @@
+﻿@section link {
+    <link rel="stylesheet" href="~/assets/css/orderhistory.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+}
+
+@section script {
+
+    <script src="~/assets/js/bookDetails.js"></script>
+    <!-- Place this tag in your head or just before your close body tag. -->
+}
+
+
+
+
+<section class="order-details-wrapper">
+    <div class="order-details-container">
+        <div class="order-details-nav">
+            <div class="OD-client-info">
+                <span>CC</span>
+                <div class="client-name">
+                    <p>Ceyhun Celilov</p>
+                    <a href="">
+
+                        <h6>Çıxış</h6>
+                    </a>
+                </div>
+            </div>
+            <div class="nav">
+                <div class="nav-element">
+                    <p>Sifarişlərim</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Bildirimlər</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Listlərim</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Qiymətləndirmələr</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Suallarım</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>İzlədiyim Satıcılar</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Adreslərim</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Bilgilərim</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+                <div class="nav-element">
+                    <p>Şifrə Dəyişdirmək</p>
+                    <i class="bi-chevron-right"></i>
+                </div>
+            </div>
+        </div>
+        <div class="order-details">
+            <div class="table-wrapper">
+                <div class="OD-search">
+                    <div class="search-wrapper">
+                        <input type="text" placeholder="Sifarişlərimdə Axtar">
+                        <i class="bi bi-search search-logo"></i>
+                    </div>
+                    <div class="detail-type">
+                        <span>Bütün Sifarişlər</span>
+                        <span>Ləğv Olunanlar</span>
+                        <span>Davam Edənlər</span>
+                    </div>
+                </div>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">Kodu</th>
+                            <th scope="col">Tarixi</th>
+                            <th scope="col">Sayı</th>
+                            <th scope="col">Məbləği</th>
+                            <th scope="col">Statusu</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>11.01.2023</td>
+                            <td>7</td>
+                            <td>70.8 <span>₼</span></td>
+                            <td>Təhvil Verildi</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>

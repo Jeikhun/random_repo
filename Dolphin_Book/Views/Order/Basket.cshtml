@@ -1,0 +1,242 @@
+﻿@{
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="~/assets/css/basket.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css" integrity="sha512-OTcub78R3msOCtY3Tc6FzeDJ8N9qvQn1Ph49ou13xgA9VsH9+LRxoFU6EqLhW4+PKRfU+/HReXmSZXHEkpYoOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;1,100;1,200;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="navbar">
+            <div class="navbar-img">
+                <a asp-controller="home" asp-action="index" class="navbar-img-nav">
+
+                <img src="~/assets/images/image-04-08-23-15-05 (2)-modifieddddd (2).png" alt="">
+                </a>
+            </div>
+            <div class="navigation">
+                <div class="navigation-item">
+                    <div>
+                        <span>1</span>
+                        <p>Səbətim</p>
+                    </div>
+                    <div class="line"></div>
+                    <div>
+                        <span>2</span>
+                        <p>Çatdırılma və Ödəniş</p>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="basket-contain">
+            <div class="basket-books">
+                <div class="basket-info">
+                    <p>Səbətim</p>
+                    <p>(8 məhsul)</p>
+                </div>
+                <div class="book-table">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th class="product-remove">&nbsp;</th>
+                                <th class="product-image">&nbsp;</th>
+                                <th class="product-name">Məhsul</th>
+                                <th class="product-price">Qiymət</th>
+                                <th class="product-quantity">Miqdar</th>
+                                <th class="product-total">Ümumi</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td class="product-remove">
+                                    <a href="#"><i class="bi bi-x"></i></a>
+                                </td>
+                                <td class="product-image">
+                                    <a href="#">
+                                        <img src="https://image01.idefix.com/resize/600/0/product/327685/insanligimi-yitirirken-6437db496421d.jpg" alt="">
+
+                                    </a>
+                                </td>
+                                <td class="product-name">
+                                    <a href="#">
+                                        <h5>Osamu Dazai</h5>
+                                        <p>Insanligimi Yitirirken</p>
+                                    </a>
+                                </td>
+                                <td class="product-price">
+                                    <div class="product-price-contain">
+
+                                        <del>
+                                            <p class="ex-price">
+                                                23.99<span>₼</span>
+                                            </p>
+                                        </del>
+                                        <div>
+                                            <p class="new-price">
+                                                14.99<span>₼</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="product-quantity">
+                                    <div class="quantity buttons_added">
+                                        <input type="button" value="-" class="minus">
+                                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                                        <input type="button" value="+" class="plus">
+                                    </div>
+                                </td>
+                                <td class="product-total">
+                                    <span>20</span>
+                                    <span>₼</span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="product-remove">
+                                    <a href="#"><i class="bi bi-x"></i></a>
+                                </td>
+                                <td class="product-image">
+                                    <a href="#">
+                                        <img src="~/assets/images/1684339222-81gZISrlN2L.jpg" alt="">
+
+                                    </a>
+                                </td>
+                                <td class="product-name">
+                                    <a href="#">
+                                        <h5>Osamu Dazai</h5>
+                                        <p>Insanligimi Yitirirken</p>
+                                    </a>
+                                </td>
+                                <td class="product-price">
+                                    <div class="product-price-contain">
+
+                                        <del>
+                                            <p class="ex-price">
+                                                23.99<span>₼</span>
+                                            </p>
+                                        </del>
+                                        <div>
+                                            <p class="new-price">
+                                                14.99<span>₼</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="product-quantity">
+                                    <div class="quantity buttons_added">
+                                        <input type="button" value="-" class="minus">
+                                        <input type="number" step="1" min="1" max="" name="quantity" value="1" title="Qty" class="input-text qty text" size="4" pattern="" inputmode="">
+                                        <input type="button" value="+" class="plus">
+                                    </div>
+                                </td>
+                                <td class="product-total">
+                                    <span>20</span>
+                                    <span>₼</span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div>
+                        <div class="empty-the-basket">
+                            <a href="#">
+                                <i class="bi bi-trash"></i>
+                                <p>Səbəti Boşalt</p>
+
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment-container">
+                <div class="payment-card">
+                    <h4>Cəmi</h4>
+                    <table class="payment-table">
+                        <tbody>
+                            <tr class="total-price-container">
+
+                                <th>Ümumi</th>
+                                <td class="total-price">
+                                    <span>80.60<span>₼</span></span>
+                                </td>
+                            </tr>
+                            <tr class="shipping-details">
+                                <th>Çatdırılma</th>
+                                <td>
+                                    <ul class="shipping-methood">
+                                        <li>
+                                            <input type="radio" checked=checked id="shipping_method_0" name="shipping_method">
+                                            <label for="shipping_method_0">Metrolara Çatdırılma: <span>2.00<span>₼</span></span></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="shipping_method_1" name="shipping_method">
+                                            <label for="shipping_method_1">Şəhərdaxili Çatdırılma: <span>3.00<span>₼</span></span></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="shipping_method_1" name="shipping_method">
+                                            <label for="shipping_method_1">Zabrat, Hövsan, Xırdalan, Masazır:<span> 4.00<span>₼</span></span></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="shipping_method_1" name="shipping_method">
+                                            <label for="shipping_method_1">Lökbatan, Sədərək-Binə bazarı: <span>5.00<span>₼</span></span></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="shipping_method_1" name="shipping_method">
+                                            <label for="shipping_method_1">Sumqayıt, Binə: <span>6.00<span>₼</span></span></label>
+                                        </li>
+                                        <li>
+                                            <input type="radio" id="shipping_method_1" name="shipping_method">
+                                            <label for="shipping_method_1">Mağazadan Götür - <span>Pulsuz<span></span></span></label>
+                                        </li>
+                                    </ul>
+                                </td>
+                            </tr>
+                            <tr class="total-price-container2">
+
+                                <th>Cəmi</th>
+                                <td class="total-price">
+                                    <span>92.60<span>₼</span></span>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <div class="payment-nav">
+                        <a href="№">
+                            <button>Ödəniş Səhifəsinə Keç</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="fixed-payment-nav">
+            <div class="sub-total">
+                <p>Ümumi</p>
+                <div class="sub-total-price">
+                    <h6>86.00 <span>₼</span></h6>
+                    <i class="bi bi-chevron-down"></i>
+                </div>
+            </div>
+            <a href="#">
+                <button>Ödəmə Səhifəsinə Keç</button>
+            </a>
+        </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js" integrity="sha512-3gJwYpMe3QewGELv8k/BX9vcqhryRdzRMxVfq6ngyWXwo03GFEzjsUm8Q7RZcHPHksttq7/GFoxjCVUjkjvPdw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="~/assets/js/basket.js"></script>
+    <script data-require="jquery@3.1.1" data-semver="3.1.1" src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+</body>
+</html>

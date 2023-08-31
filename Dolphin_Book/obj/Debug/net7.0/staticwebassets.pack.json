@@ -1,0 +1,721 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Dolphin_Book.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Dolphin_Book.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\css\\demo.css",
+      "PackagePath": "staticwebassets\\admin\\css\\demo.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\css\\login.css",
+      "PackagePath": "staticwebassets\\admin\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\css\\register.css",
+      "PackagePath": "staticwebassets\\admin\\css\\register.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\avatars\\1.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\avatars\\5.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\avatars\\6.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\avatars\\7.png",
+      "PackagePath": "staticwebassets\\admin\\img\\avatars\\7.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\backgrounds\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\backgrounds\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\11.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\12.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\13.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\17.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\18.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\19.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\2.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\20.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\3.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\4.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\5.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\elements\\7.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\elements\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\favicon\\favicon.ico",
+      "PackagePath": "staticwebassets\\admin\\img\\favicon\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\asana.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\asana.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\behance.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\behance.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\dribbble.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\dribbble.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\facebook.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\facebook.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\github.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\github.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\google.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\google.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\instagram.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\instagram.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\mailchimp.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\mailchimp.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\slack.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\slack.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\brands\\twitter.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\brands\\twitter.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\cc-primary.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\cc-primary.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\cc-success.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\cc-success.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\cc-warning.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\cc-warning.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\chart-success.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\chart-success.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\chart.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\chart.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\paypal.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\paypal.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\wallet-info.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\wallet-info.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\icons\\unicons\\wallet.png",
+      "PackagePath": "staticwebassets\\admin\\img\\icons\\unicons\\wallet.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\illustrations\\girl-doing-yoga-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\girl-doing-yoga-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\illustrations\\man-with-laptop-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\man-with-laptop-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\illustrations\\page-misc-error-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\illustrations\\page-misc-error-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\06074322-d010-41fa-9243-e5ba59286ee1image-04-08-23-15-05 (2)-modifieddddd (2).png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\06074322-d010-41fa-9243-e5ba59286ee1image-04-08-23-15-05 (2)-modifieddddd (2).png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\192b39b6-f7d5-4bf6-bf61-e08cd64d8931images (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\192b39b6-f7d5-4bf6-bf61-e08cd64d8931images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\1b1f9780-f1cb-4372-9791-fb6861007d87large_ch_1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\1b1f9780-f1cb-4372-9791-fb6861007d87large_ch_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\1c13f79d-3181-4c8a-ad23-5fff017eb32aunnamed__3_.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\1c13f79d-3181-4c8a-ad23-5fff017eb32aunnamed__3_.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\1df0ab6b-064a-4318-bd00-a81fcc8a72722019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\1df0ab6b-064a-4318-bd00-a81fcc8a72722019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\1f98b69f-4a05-4d82-b62e-c3e242301a551_org_zoom (1).webp",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\1f98b69f-4a05-4d82-b62e-c3e242301a551_org_zoom (1).webp"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\23367bab-d32c-441f-a27f-f0a148340ae3images (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\23367bab-d32c-441f-a27f-f0a148340ae3images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\2f9ec246-0e59-4336-855e-56b34ed611892019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\2f9ec246-0e59-4336-855e-56b34ed611892019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\31bda7b3-2f47-4df5-863e-702c3814552f2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\31bda7b3-2f47-4df5-863e-702c3814552f2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\3cad6d08-7bd2-44b7-8f7d-ac5fe51d05a2large_KITABXANADAKI_CESED_qapaq.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\3cad6d08-7bd2-44b7-8f7d-ac5fe51d05a2large_KITABXANADAKI_CESED_qapaq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\3d9c77bc-d45a-4e9a-9670-721cf8af73e42019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\3d9c77bc-d45a-4e9a-9670-721cf8af73e42019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\3e7a4b9d-c6f4-4b6b-8b84-f64d7fee4b282019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\3e7a4b9d-c6f4-4b6b-8b84-f64d7fee4b282019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\42cb3368-d19c-4289-90e0-eff1b6561cfeWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\42cb3368-d19c-4289-90e0-eff1b6561cfeWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\4495c382-8b74-4aaf-ac75-b2b5f0cd4297WhatsApp Image 2023-08-23 at 20.31.02 (2).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\4495c382-8b74-4aaf-ac75-b2b5f0cd4297WhatsApp Image 2023-08-23 at 20.31.02 (2).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\47037793-058b-4331-92c0-68b29cca780c2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\47037793-058b-4331-92c0-68b29cca780c2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\4ce8abfa-0502-43a8-9ca4-8f657005a4ce2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\4ce8abfa-0502-43a8-9ca4-8f657005a4ce2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\5125ed76-f8b2-438c-ba7c-c160ed2abb2e2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\5125ed76-f8b2-438c-ba7c-c160ed2abb2e2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\543488f9-211c-4776-88b8-b643084bec65image-04-08-23-15-05 (2)-modified (2).png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\543488f9-211c-4776-88b8-b643084bec65image-04-08-23-15-05 (2)-modified (2).png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\5bf457b0-4a8f-43a8-a8fc-5a0c877c6041large_ch_1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\5bf457b0-4a8f-43a8-a8fc-5a0c877c6041large_ch_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\600d4330-4498-4820-82e8-5ea03f92fa542__1__3ec937256a75f5a0686dab8822a2d9fe.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\600d4330-4498-4820-82e8-5ea03f92fa542__1__3ec937256a75f5a0686dab8822a2d9fe.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\6227d1e8-33f8-4b8b-8b50-4f3faab991fe2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\6227d1e8-33f8-4b8b-8b50-4f3faab991fe2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\675feee8-76bf-4544-a0ef-0e7eecdd5f7eWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\675feee8-76bf-4544-a0ef-0e7eecdd5f7eWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\697d83b4-9752-44cf-9512-d0da5f937cd6images (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\697d83b4-9752-44cf-9512-d0da5f937cd6images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\782963b2-3108-435f-b4df-0276ef20eb18image-04-08-23-15-05 (2)-modified.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\782963b2-3108-435f-b4df-0276ef20eb18image-04-08-23-15-05 (2)-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\7aad1f7d-7e10-4f2e-ae2d-24f66105162fimages (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\7aad1f7d-7e10-4f2e-ae2d-24f66105162fimages (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\7e064d50-1493-455a-b570-9e9bd18d0362medium_a07629ffb6512f48a64a064997374c58.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\7e064d50-1493-455a-b570-9e9bd18d0362medium_a07629ffb6512f48a64a064997374c58.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\80600df4-71e3-4f5c-a9d6-bd1cf76f4b43images.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\80600df4-71e3-4f5c-a9d6-bd1cf76f4b43images.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\82cf9345-4f2f-4aac-bff7-d341b08ccee4WhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\82cf9345-4f2f-4aac-bff7-d341b08ccee4WhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\831c8432-b4f5-46a2-bbab-2418f4cf06bblarge_etiraf_01.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\831c8432-b4f5-46a2-bbab-2418f4cf06bblarge_etiraf_01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\854c06cb-689e-412e-bb47-14273ef6141311.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\854c06cb-689e-412e-bb47-14273ef6141311.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\917f09b1-7a3d-4f92-a9da-32e0c97a2e67image-04-08-23-15-05 (2) (1)-modified.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\917f09b1-7a3d-4f92-a9da-32e0c97a2e67image-04-08-23-15-05 (2) (1)-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\91b50d5a-ff28-401e-949b-eaf8fd0d6acc2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\91b50d5a-ff28-401e-949b-eaf8fd0d6acc2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\93488f1d-5f5b-4fb9-b2f4-b9aa4c6d88b82019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\93488f1d-5f5b-4fb9-b2f4-b9aa4c6d88b82019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\9516aaf4-0de8-438b-8648-f00aacfa232a1__1__e4569760de50121ba2f0dde816b9cc79.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\9516aaf4-0de8-438b-8648-f00aacfa232a1__1__e4569760de50121ba2f0dde816b9cc79.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\972d25e6-e9a6-49a3-88a4-7486296fa0772019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\972d25e6-e9a6-49a3-88a4-7486296fa0772019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\9857e2ab-89e9-4935-8f97-702dcb46733cWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\9857e2ab-89e9-4935-8f97-702dcb46733cWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\996a4e9a-5611-4935-a8cf-5c76ccfbfd61large_7949257.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\996a4e9a-5611-4935-a8cf-5c76ccfbfd61large_7949257.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\9e6d4ba3-b932-4f9a-9ae0-9735b5c0a6bdimage-04-08-23-15-05 (1).png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\9e6d4ba3-b932-4f9a-9ae0-9735b5c0a6bdimage-04-08-23-15-05 (1).png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\a3ab3161-9150-4549-bfa8-79e4840231b9large_ch_1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\a3ab3161-9150-4549-bfa8-79e4840231b9large_ch_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\a5ac8aee-3def-4cd6-8dfe-9e36601512afWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\a5ac8aee-3def-4cd6-8dfe-9e36601512afWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\a9d21da2-c52c-4aa3-b291-61ac919e8442images (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\a9d21da2-c52c-4aa3-b291-61ac919e8442images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\acb59565-5f9b-419f-b3b3-60e3767546412019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\acb59565-5f9b-419f-b3b3-60e3767546412019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\add3036a-2d1f-45e0-a04b-fee99b22e9782__1__3ec937256a75f5a0686dab8822a2d9fe.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\add3036a-2d1f-45e0-a04b-fee99b22e9782__1__3ec937256a75f5a0686dab8822a2d9fe.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\b311cc2f-f98b-4576-9beb-bd4428764a7cimages.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\b311cc2f-f98b-4576-9beb-bd4428764a7cimages.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\b3a79ef6-9a2b-47bf-afe3-63bb74eade70WhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\b3a79ef6-9a2b-47bf-afe3-63bb74eade70WhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\b5208b8d-3ec8-479a-80e0-639d77691cdf2019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\b5208b8d-3ec8-479a-80e0-639d77691cdf2019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\bed2ff6a-6e69-4034-ba4a-0d0e7c304dd0images (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\bed2ff6a-6e69-4034-ba4a-0d0e7c304dd0images (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\bf48721b-b621-4817-bb2d-bd37a59951d3large_ch_1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\bf48721b-b621-4817-bb2d-bd37a59951d3large_ch_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\c00f4af9-061c-476a-b46b-7ef511b9b7aeWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\c00f4af9-061c-476a-b46b-7ef511b9b7aeWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\c5b5a1b3-569f-4ac6-90b4-83ad098f1410WhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\c5b5a1b3-569f-4ac6-90b4-83ad098f1410WhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\cca53957-88b8-40ed-adc9-4b5c725be7bbimages.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\cca53957-88b8-40ed-adc9-4b5c725be7bbimages.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\ce6efdc8-1b4c-4509-a443-627834dd447emedium_Aqata_Kristi_Olumle_gorush_Qapaq_2019_CTP.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\ce6efdc8-1b4c-4509-a443-627834dd447emedium_Aqata_Kristi_Olumle_gorush_Qapaq_2019_CTP.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\d5f3ff00-65b2-4abb-bf82-7112cfcbdeaflarge_ch_1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\d5f3ff00-65b2-4abb-bf82-7112cfcbdeaflarge_ch_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\de2e9482-2094-4fc7-a9ec-bc4d892d6b0cWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\de2e9482-2094-4fc7-a9ec-bc4d892d6b0cWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\e18b8d56-79e9-4255-981c-1c3e46a6183bWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\e18b8d56-79e9-4255-981c-1c3e46a6183bWhatsApp Image 2023-08-23 at 20.31.02 (4).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\e45614f6-2839-4a79-89b6-dfe45cb0caec1__1__e4569760de50121ba2f0dde816b9cc79.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\e45614f6-2839-4a79-89b6-dfe45cb0caec1__1__e4569760de50121ba2f0dde816b9cc79.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\e88d5bf6-d6ac-4522-875f-0a3dacbfc085WhatsApp Image 2023-08-23 at 20.31.02 (3).jpeg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\e88d5bf6-d6ac-4522-875f-0a3dacbfc085WhatsApp Image 2023-08-23 at 20.31.02 (3).jpeg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\ecc2f293-e169-42e8-91fd-2a93da05b4062019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\ecc2f293-e169-42e8-91fd-2a93da05b4062019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\ecfb27f8-f938-4716-9e52-dfaceb5026b02019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\ecfb27f8-f938-4716-9e52-dfaceb5026b02019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\f31d1567-04c2-4ed0-9259-71d3c6940821unnamed__3_.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\f31d1567-04c2-4ed0-9259-71d3c6940821unnamed__3_.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\f442bb3e-db7d-49d1-baa0-0594416c9a002019-11-25-11-01-041574665264.png",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\f442bb3e-db7d-49d1-baa0-0594416c9a002019-11-25-11-01-041574665264.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\f8ae6d5b-d97a-45cc-ac17-8fd1e7af98e8large_ch_1.jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\f8ae6d5b-d97a-45cc-ac17-8fd1e7af98e8large_ch_1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\images\\fc1757d5-4ec4-4196-9e0c-90c4b97d7acddownload (1).jpg",
+      "PackagePath": "staticwebassets\\admin\\img\\images\\fc1757d5-4ec4-4196-9e0c-90c4b97d7acddownload (1).jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\layouts\\layout-container-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-container-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\layouts\\layout-fluid-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-fluid-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\layouts\\layout-without-menu-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-without-menu-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\img\\layouts\\layout-without-navbar-light.png",
+      "PackagePath": "staticwebassets\\admin\\img\\layouts\\layout-without-navbar-light.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\config.js",
+      "PackagePath": "staticwebassets\\admin\\js\\config.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\dashboards-analytics.js",
+      "PackagePath": "staticwebassets\\admin\\js\\dashboards-analytics.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\extended-ui-perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\js\\extended-ui-perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\form-basic-inputs.js",
+      "PackagePath": "staticwebassets\\admin\\js\\form-basic-inputs.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\login.js",
+      "PackagePath": "staticwebassets\\admin\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\admin\\js\\main.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\pages-account-settings-account.js",
+      "PackagePath": "staticwebassets\\admin\\js\\pages-account-settings-account.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\ui-modals.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ui-modals.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\ui-popover.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ui-popover.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\js\\ui-toasts.js",
+      "PackagePath": "staticwebassets\\admin\\js\\ui-toasts.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\css\\core.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\core.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\css\\pages\\page-account-settings.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-account-settings.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\css\\pages\\page-auth.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-auth.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\css\\pages\\page-icons.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-icons.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\css\\pages\\page-misc.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\pages\\page-misc.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\css\\theme-default.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\css\\theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\fonts\\boxicons.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.eot",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.eot"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.svg",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.svg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.ttf",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.ttf"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.woff",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.woff"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\fonts\\boxicons\\boxicons.woff2",
+      "PackagePath": "staticwebassets\\admin\\vendor\\fonts\\boxicons\\boxicons.woff2"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\js\\helpers.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\js\\helpers.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\js\\menu.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\js\\menu.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\apex-charts\\apex-charts.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\apex-charts\\apex-charts.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\apex-charts\\apexcharts.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\apex-charts\\apexcharts.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\highlight\\highlight-github.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\highlight\\highlight-github.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\highlight\\highlight.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\highlight\\highlight.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\highlight\\highlight.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\highlight\\highlight.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\jquery\\jquery.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\jquery\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\masonry\\masonry.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\masonry\\masonry.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\perfect-scrollbar\\perfect-scrollbar.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\admin\\vendor\\libs\\popper\\popper.js",
+      "PackagePath": "staticwebassets\\admin\\vendor\\libs\\popper\\popper.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\Templates\\email.html",
+      "PackagePath": "staticwebassets\\assets\\Templates\\email.html"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\Layout.css",
+      "PackagePath": "staticwebassets\\assets\\css\\Layout.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\basket.css",
+      "PackagePath": "staticwebassets\\assets\\css\\basket.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\book.css",
+      "PackagePath": "staticwebassets\\assets\\css\\book.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\bookDetails.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bookDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\homePage.css",
+      "PackagePath": "staticwebassets\\assets\\css\\homePage.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\login.css",
+      "PackagePath": "staticwebassets\\assets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\orderhistory.css",
+      "PackagePath": "staticwebassets\\assets\\css\\orderhistory.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\toy.css",
+      "PackagePath": "staticwebassets\\assets\\css\\toy.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\css\\toyDetails.css",
+      "PackagePath": "staticwebassets\\assets\\css\\toyDetails.css"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\1658498858-41U4LPJdhmL._SL500_.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1658498858-41U4LPJdhmL._SL500_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\1684179605-8182CJcXefL.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1684179605-8182CJcXefL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\1684339222-81gZISrlN2L.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1684339222-81gZISrlN2L.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\1689361535-81yfsIOijJL.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1689361535-81yfsIOijJL.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\1689774721-61MgrYMyF0L.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\1689774721-61MgrYMyF0L.jpg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\56ccfa09-68a6-4e2b-b0cc-54760e6215a7ghghgh.png",
+      "PackagePath": "staticwebassets\\assets\\images\\56ccfa09-68a6-4e2b-b0cc-54760e6215a7ghghgh.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\7-091.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\7-091.webp"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\icons\\heart.svg",
+      "PackagePath": "staticwebassets\\assets\\images\\icons\\heart.svg"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\image-04-08-23-15-05 (2)-modifieddddd (2).png",
+      "PackagePath": "staticwebassets\\assets\\images\\image-04-08-23-15-05 (2)-modifieddddd (2).png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\image-04-08-23-15-05 (2)aa-modified.png",
+      "PackagePath": "staticwebassets\\assets\\images\\image-04-08-23-15-05 (2)aa-modified.png"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\test-64c3d371d5817.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\test-64c3d371d5817.webp"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\images\\test-64c8a4f61e572.webp",
+      "PackagePath": "staticwebassets\\assets\\images\\test-64c8a4f61e572.webp"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\js\\basket.js",
+      "PackagePath": "staticwebassets\\assets\\js\\basket.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\js\\book.js",
+      "PackagePath": "staticwebassets\\assets\\js\\book.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\js\\bookDetails.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bookDetails.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\js\\homePage.js",
+      "PackagePath": "staticwebassets\\assets\\js\\homePage.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\js\\toy.js",
+      "PackagePath": "staticwebassets\\assets\\js\\toy.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\assets\\js\\toyDetails.js",
+      "PackagePath": "staticwebassets\\assets\\js\\toyDetails.js"
+    },
+    {
+      "Id": "C:\\Users\\GF65\\source\\repos\\Dolphin_Book\\Dolphin_Book\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Dolphin_Book.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Dolphin_Book.props",
+      "PackagePath": "build\\Dolphin_Book.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Dolphin_Book.props",
+      "PackagePath": "buildMultiTargeting\\Dolphin_Book.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Dolphin_Book.props",
+      "PackagePath": "buildTransitive\\Dolphin_Book.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

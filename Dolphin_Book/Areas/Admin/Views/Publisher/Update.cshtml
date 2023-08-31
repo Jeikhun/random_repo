@@ -1,0 +1,15 @@
+﻿@model Publisher
+
+<div class="container" style="margin: 16px;">
+	<div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+	<form method="post" enctype="multipart/form-data">
+		<div class="form-group">
+			<label asp-for="Name">Name:</label>
+			<input class="form-control" asp-for="Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+		</div>
+
+		@Html.AntiForgeryToken()
+		<button type="submit" style="width: 180px;" class="btn btn-success btn-rounded">Update</button>
+	</form>
+</div>

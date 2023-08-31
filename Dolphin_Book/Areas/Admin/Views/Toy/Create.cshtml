@@ -1,0 +1,71 @@
+﻿@model Toy
+
+<div class="container" style="margin: 16px 0px;">
+	<div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+	<form method="post" enctype="multipart/form-data">
+		<div class="form-group">
+			<label asp-for="@Model.Name">Name:</label>
+			<input class="form-control" asp-for="@Model.Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Description">Description:</label>
+			<input class="form-control" asp-for="Description" />
+			<span asp-validation-for="Description" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="PurshacePrice">Additional Title:</label>
+			<input class="form-control" asp-for="PurshacePrice" />
+			<span asp-validation-for="PurshacePrice" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="SalePrice">Additional Info:</label>
+			<input class="form-control" asp-for="SalePrice" />
+			<span asp-validation-for="SalePrice" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CategoryIds">Categories</label>
+			<select multiple asp-for="CategoryIds" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.Categories)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="CategoryIds" class="text text-danger"></span>
+
+		</div>
+		<div class="form-group">
+			<label asp-for="SellerId">Seller:</label>
+			<select asp-for="SellerId" class="form-select" aria-label="Default select example">
+				
+				@foreach (var item in ViewBag.Sellers)
+				{
+					<option value="@item.Id">@item.Name</option>
+
+				}
+			</select>
+			<span asp-validation-for="SellerId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="PublisherId">Publisher: </label>
+			<select asp-for="PublisherId" class="form-select" aria-label="Default select example">
+				<option selected>Choose one of them</option>
+				@foreach (var item in ViewBag.Publishers)
+				{
+					<option value="@item.Id">@item.Name</option>
+
+				}
+			</select>
+			<span asp-validation-for="PublisherId" class="text text-danger"></span>
+
+		</div>
+		<div class="form-group">
+			<label asp-for="@Model.FormFiles">File:</label>
+			<input multiple type="file" class="form-control" asp-for="@Model.FormFiles" />
+			<span asp-validation-for="FormFiles" class="text text-danger"></span>
+
+		</div>
+		@Html.AntiForgeryToken()
+		<button type="submit" style="width: 180px; margin-top: 16px;" class="btn btn-success btn-rounded">Create</button>
+	</form>
+</div>

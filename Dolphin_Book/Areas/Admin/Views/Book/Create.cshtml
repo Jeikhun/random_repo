@@ -1,0 +1,104 @@
+﻿@model Book
+
+<div class="container" style="margin: 16px 0px;">
+	<div class="alert alert-danger" asp-validation-summary="ModelOnly"></div>
+	<form method="post" enctype="multipart/form-data" asp-action="create" asp-controller="book" asp-area="admin">
+		<div class="form-group">
+			<label asp-for="@Model.Name">Name:</label>
+			<input class="form-control" asp-for="@Model.Name" />
+			<span asp-validation-for="Name" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Count">Count:</label>
+			<input class="form-control" asp-for="Count" />
+			<span asp-validation-for="Count" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Year">Year:</label>
+			<input class="form-control" asp-for="Year" />
+			<span asp-validation-for="Year" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="PageCount">Page Count:</label>
+			<input class="form-control" asp-for="PageCount" />
+			<span asp-validation-for="PageCount" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="PurchasePrice">Purchase Price:</label>
+			<input class="form-control" asp-for="PurchasePrice" />
+			<span asp-validation-for="PurchasePrice" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="SalePrice">Sale Price</label>
+			<input class="form-control" asp-for="SalePrice" />
+			<span asp-validation-for="SalePrice" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="Description">Description</label>
+			<input class="form-control" asp-for="Description" />
+			<span asp-validation-for="Description" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="@Model.FormFile">Photo:</label>
+			<input class="form-control" type="file" asp-for="@Model.FormFile" />
+			<span asp-validation-for="@Model.FormFile" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="CategoryIds">Categories</label>
+			<select multiple asp-for="CategoryIds" class="form-select" aria-label="Default select example">
+				@foreach (var item in ViewBag.Categories)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="CategoryIds" class="text text-danger"></span>
+
+		</div>
+		<div class="form-group">
+			<label asp-for="AuthorId">Author:</label>
+			<select asp-for="AuthorId" class="form-select" aria-label="Default select example">
+				<option value="0" selected>Choose one of them</option>
+				@foreach (var item in ViewBag.Authors)
+				{
+					<option value="@item.Id">@item.FullName</option>
+				}
+			</select>
+			<span asp-validation-for="AuthorId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="LanguageId">Language:</label>
+			<select asp-for="LanguageId" class="form-select" aria-label="Default select example">
+				<option value="0" selected>Choose one of them</option>
+				@foreach (var item in ViewBag.Languages)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="LanguageId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="SellerId">Seller:</label>
+			<select asp-for="SellerId" class="form-select" aria-label="Default select example">
+				<option value="0" selected>Choose one of them</option>
+				@foreach (var item in ViewBag.Sellers)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="SellerId" class="text text-danger"></span>
+		</div>
+		<div class="form-group">
+			<label asp-for="PublisherId">Publisher:</label>
+			<select asp-for="PublisherId" class="form-select" aria-label="Default select example">
+				<option value="0" selected>Choose one of them</option>
+				@foreach (var item in ViewBag.Publishers)
+				{
+					<option value="@item.Id">@item.Name</option>
+				}
+			</select>
+			<span asp-validation-for="PublisherId" class="text text-danger"></span>
+		</div>
+		@Html.AntiForgeryToken()
+		<button type="submit" style="width: 180px; margin-top: 16px;" class="btn btn-success btn-rounded">Create</button>
+	</form>
+</div>

@@ -1,0 +1,37 @@
+﻿@model List<Author>
+<div class="card-body">
+    <table class="table">
+        <thead>
+            <tr class="text-nowrap">
+                <th>Id</th>
+                <th>Image</th>
+                <th>FullName</th>
+                <th>Age</th>
+                <th>Created Time</th>
+                <th>Updated Time</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td><img src="~/admin/img/images/@item.Image" width="100px" style="object-fit: cover;" height="100px"></td>
+                    <td>@item.FullName</td>
+                    <td>@item.Age</td>
+                    <td>@item.CreatedAt</td>
+                    <td>@item.UpdatedAt</td>
+
+                    <td><a asp-controller="author" asp-action="update" asp-route-id="@item.Id" class="fa-solid fa-pen-to-square"><i></i></a></td>
+                    <td><a asp-controller="author" asp-action="delete" asp-route-id="@item.Id" class="fa-solid fa-trash-can"><i></i></a></td>
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <a asp-area="admin" asp-controller="author" asp-action="create"><button type="button" class="btn btn-primary btn-lg btn-block"> Create Author </button></a>
+
+</div>

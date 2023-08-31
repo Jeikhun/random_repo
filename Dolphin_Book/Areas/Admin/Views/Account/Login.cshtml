@@ -1,0 +1,47 @@
+﻿@{
+    Layout = null;
+}
+@using Dolphin_Book.Areas.Admin.ViewModels;
+@model AccountLoginVM;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/admin/css/login.css" />
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+          integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+          crossorigin="anonymous"
+          referrerpolicy="no-referrer" />
+
+    <title>@ViewBag.Title</title>
+</head>
+<body id="particles-js">
+
+    <div class="animated bounceInDown">
+        <div class="container">
+            <span class="error animated tada" id="msg"></span>
+            <form method="post" asp-action="login" asp-controller="account" asp-area="admin" class="box">
+                <h4>Admin<span>Dashboard</span></h4>
+                <h5>Sign in to your account.</h5>
+                <input asp-for="@Model.Email" placeholder="Username" autocomplete="off">
+                <i class="typcn typcn-eye" id="eye"></i>
+                <input asp-for="@Model.Password" placeholder="Passsword" id="pwd" autocomplete="off">
+                <div style="color:red !important;font-size:14px !important;display:block;" asp-validation-summary="ModelOnly"></div>
+                <a asp-action="forgotpassword" asp-controller="account" asp-area="admin" class="forgetpass">Forget Password?</a>
+                <button type="submit" class="btn1">Login</button>
+            </form>
+                <a asp-area="admin" asp-controller="account" asp-action="register">
+
+                    <button class="btn2">Register</button>
+                </a>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="~/admin/js/login.js"></script>
+</body>
+</html>

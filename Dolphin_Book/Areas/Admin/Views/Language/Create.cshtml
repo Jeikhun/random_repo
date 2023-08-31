@@ -1,0 +1,14 @@
+﻿@model Language
+
+<div class="container" style="margin: 16px;">
+	<form method="post">
+		<div class="form-group">
+			<label for="name">Language:</label>
+			<input type="text" class="form-control" asp-for="@Model.Name" />
+			<span class="texttext-danger" asp-validation-for="@Model.Name"></span>
+
+			@Html.AntiForgeryToken()
+		</div>
+		<button type="submit" style="width: 180px; margin-top: 16px;" class="btn btn-success btn-rounded">Create</button>
+	</form>
+</div>

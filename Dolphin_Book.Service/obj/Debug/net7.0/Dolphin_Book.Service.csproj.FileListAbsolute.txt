@@ -1,0 +1,17 @@
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.csproj.AssemblyReference.cache
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.AssemblyInfoInputs.cache
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.AssemblyInfo.cs
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.csproj.CoreCompileInputs.cache
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Service.deps.json
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Service.dll
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Service.pdb
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Core.dll
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Data.dll
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Data.pdb
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\bin\Debug\net7.0\Dolphin_Book.Core.pdb
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.csproj.CopyComplete
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.dll
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\refint\Dolphin_Book.Service.dll
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\Dolphin_Book.Service.pdb
+C:\Users\GF65\source\repos\Dolphin_Book\Dolphin_Book.Service\obj\Debug\net7.0\ref\Dolphin_Book.Service.dll

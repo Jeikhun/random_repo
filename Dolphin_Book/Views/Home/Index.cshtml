@@ -1,0 +1,196 @@
+﻿@model HomeVM
+@section link {
+    <link rel="stylesheet" href="~/assets/css/homePage.css">
+}
+
+@section script {
+    <script src="~/assets/js/homePage.js"></script>
+}
+
+<section class="slider-sec">
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+        
+        @foreach(var item in Model.slides)
+        {
+            <div class="mySlides fade">
+                <div class="numbertext"></div>
+                <img src="~/admin/img/images/@item.Image" style="width:100%; height:374px;">
+            </div>
+            
+        }
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- The dots/circles -->
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+</section>
+<section class="type-sec">
+    <div class="sales-type" id="sales-type-id">
+        <ul>
+            <li>Günün təklifi</li>
+            <span class="underline"></span>
+        </ul>
+        <ul>
+            <li>Çox Satılanlar</li>
+            <span class="underline"></span>
+        </ul>
+        <ul>
+            <li>Yeni Çıxanlar</li>
+            <span class="underline"></span>
+        </ul>
+        <span></span>
+    </div>
+</section>
+<section class="first-owl-crsl-sec">
+    <div class="carousel-wrapper">
+
+        <div class="owl-carousel owl-theme">
+            @foreach(var item in Model.books)
+            {
+                <a asp-controller="book" asp-action="bookdetails" asp-route-id="@item.Id" style="text-decoration: none; color: black;">
+
+                
+                    <div class="item" id="book-carousel-first">
+                        <div class="book-carousel-image">
+                            <img style="width: 150px; height: 230px; object-fit: cover;" src="~/admin/img/images/@item.Image" alt="">
+                        </div>
+                        <div class="book-carousel-detail">
+                            <h5>@item.Author.FullName</h5>
+                            <p>@item.Name</p>
+                            <h5>@item.SalePrice<span> ₼</span></h5>
+                        </div>
+                        <div class="basket-button">
+
+                            <button><p>Səbətə at</p></button>
+                        </div>
+
+                    </div>
+
+                </a>
+            }
+        </div>
+    </div>
+</section>
+<section class="last-owl-crsl-sec">
+    <div class="carousel-wrapper">
+
+        <h2>Oyuncaqlar</h2>
+        <div class="owl-carousel owl-theme">
+            <div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/ty608/product/media/images/20221121/17/219260461/617892576/1/1_org.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Elux</h5>
+                    <p>200cm Ayıcığ</p>
+                    <h5>96AZN</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div>
+            <div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty957/product/media/images/20230624/20/388990123/909054701/1/1_org_zoom.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>YK Store</h5>
+                    <p>Köpük Tapancası</p>
+                    <h5>12azn</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div>
+            <div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/mnresize/1200/1800/ty612/product/media/images/20221128/22/222960441/633733099/1/1_org_zoom.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Think Master</h5>
+                    <p>Molekul Oyunu</p>
+                    <h5>21azn</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div><div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/ty199/product/media/images/20211014/11/147628265/263246510/1/1_org.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Spi Store</h5>
+                    <p>Spiderman Dəsti</p>
+                    <h5>35AZN</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div><div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/ty377/product/media/images/20220331/12/79618900/7240255/2/2_org_zoom.png" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Anatoli Puzzle</h5>
+                    <p>1000 Parça Payız Puzzle</p>
+                    <h5>8.4azn</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div><div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/ty525/product/media/images/20220910/17/171675845/341285151/1/1_org_zoom.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Elux</h5>
+                    <p>Akıl Küpleri</p>
+                    <h5>14.2azn</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div><div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/ty62/product/media/images/20210129/5/58192421/63874215/1/1_org_zoom.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Venüs</h5>
+                    <p>Akıllı Bardaklar</p>
+                    <h5>9azn</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div><div id="toy-carousel" class="item" style="margin-top: 25px; margin-bottom: 25px; padding: 10px 20px 0px 15px;">
+                <div class="toy-carousel-image">
+                    <img style="width: 150px; height: 230px; object-fit: cover; display: inline-block;" src="https://cdn.dsmcdn.com/ty325/product/media/images/20220208/16/47016237/67912255/1/1_org_zoom.jpg" alt="">
+                </div>
+                <div class="toy-carousel-detail">
+                    <h5>Kaj Plus</h5>
+                    <p>Kaj Plus Oyun</p>
+                    <h5>14.6azn</h5>
+                </div>
+                <div class="toy-basket-button">
+
+                    <button><p>Sebətə at</p></button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

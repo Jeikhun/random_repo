@@ -1,0 +1,40 @@
+﻿@model List<Toy>
+<div class="card-body">
+    <table class="table">
+        <thead>
+            <tr class="text-nowrap">
+                <th>Id</th>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Count</th>
+                <th>Purchase Price</th>
+                <th>Sale Price</th>
+                <th>Created Time</th>
+                <th>Updated Time</th>
+                <th>Update</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <th><img style="width:100px;height:100px; object-fit: contain;" src="~/admin/img/images/@item.toyImages.FirstOrDefault(x=>x.isMain).Image" /></th>
+                    <td>@item.Name</td>
+                    <td>Say</td>
+                    <td>@item.PurshacePrice</td>
+                    <td>@item.SalePrice</td>
+                    <td>@item.CreatedAt</td>
+                    <td>@item.UpdatedAt</td>
+                    <td><a asp-controller="toy" asp-action="update" asp-route-id="@item.Id" class="fa-solid fa-pen-to-square"><i></i></a></td>
+                    <td><a asp-controller="toy" asp-action="delete" asp-route-id="@item.Id" class="fa-solid fa-trash-can"><i></i></a></td>
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+    <a asp-area="admin" asp-controller="toy" asp-action="create"><button type="button" class="btn btn-primary btn-lg btn-block"> Create Toy </button></a>
+
+</div>

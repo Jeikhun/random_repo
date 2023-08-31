@@ -1,0 +1,76 @@
+﻿@model BookVM
+
+@section link {
+    <link rel="stylesheet" href="~/assets/css/bookDetails.css">
+}
+
+@section script {
+    <script src="~/assets/js/bookDetails.js"></script>
+}
+<section class="book-info-sec">
+    <div class="info-picture">
+        <div class="book-picture">
+            <img src="~/admin/img/images/@Model.book.Image" alt="">
+            <p>♡</p>
+        </div>
+    </div>
+    <div class="info-title" style="padding: 0px 25px;">
+        <div class="nesr">
+            <div class="info-publisher">
+
+                <h3>Tunc Yayınları</h3>
+                <h5>@Model.book.Name</h5>
+            </div>
+            <h6>@Model.book.Author.FullName</h6>
+        </div>
+        <p>Kitab Formatı</p>
+        <div class="select-container">
+            <input type="radio" checked="readonly " style="accent-color: red ;">
+            <img src="~/admin/img/images/@Model.book.Image" alt="">
+            <div style="display: flex; flex-direction: column; gap: 3px;">
+                <h6>Cildsiz</h6>
+                <p>@Model.book.SalePrice<span> ₼</span></p>
+            </div>
+        </div>
+        <div class="book-info-grid">
+
+            <div>
+                <p>Kitab Formati</p>
+                <h5>Cildsiz</h5>
+            </div>
+            <div>
+                <p>Yazar</p>
+                <h5>@Model.book.Author.FullName</h5>
+            </div>
+            <div>
+                <p>Kitab Dili</p>
+                <h5>@Model.book.Language.Name</h5>
+            </div>
+            <div>
+                <p>İstehsal Tarixi</p>
+                <h5>@Model.book.Year</h5>
+            </div>
+            <div>
+                <p>Sehife Sayı</p>
+                <h5>@Model.book.PageCount</h5>
+            </div>
+        </div>
+    </div>
+    <div class="buy-book">
+
+        <h3 class="book-price-one">@Model.book.SalePrice<span> ₼</span></h3>
+        <div class="buy-book-btn" id="buy-book">
+            <h6 class="book-price-two">@Model.book.SalePrice<span> ₼</span></h6>
+            <button><p style="width: 64px;">Səbətə At</p></button>
+        </div>
+        <div class="book-seller" style="padding: 0px 25px;">
+            <div>
+                <p>Satıcı:</p>
+                <h5>@Model.book.Seller.Name</h5>
+            </div>
+            <div>
+                <h5>Satıcıya Sual Ver</h5>
+            </div>
+        </div>
+    </div>
+</section>
